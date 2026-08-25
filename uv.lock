@@ -36,7 +36,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "django", specifier = ">=6.1" },
+    { name = "django", specifier = ">=6.1,<6.2" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.3.4" },
 ]
 
